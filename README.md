@@ -2,7 +2,7 @@
 The E-commerce API is built using Node.js, Express.js, and MongoDB, providing functionality for the admin to manage their product inventory. The API allows for viewing the inventory, creating new products, deleting existing products, and updating the quantity of products.
 
 Tech Stack:
-- Node.js: A JavaScript runtime environment that allows running JavaScript on the server-side.
+- Node.js: A JavaScript runtime environment that allows running JavaScript on the server side.
 - Express.js: A web application framework for Node.js, used for handling server-side logic and creating RESTful APIs.
 - MongoDB: A NoSQL database used for storing and retrieving product inventory data.
 
@@ -17,7 +17,7 @@ Functionality:
 
 ## Setup
 
-   After cloning, use "npm install" and serve the app using "node server". The example provided here are from Postman.
+   After cloning, use "npm install" and serve the app using "node server". The example provided here is from Postman.
 
     localhost:3000/api/v1 
     
@@ -25,7 +25,7 @@ Functionality:
 
 ## 1. View Inventory 
 
-   Admin can view all the products available in inventory and sending a `GET` request.
+   Admin can view all the products available in inventory and send a `GET` request.
    
     /products
     
@@ -37,7 +37,7 @@ Functionality:
 
 
 ## 2. Create Products
-   Admin can enter new products by specifying the name and quantity in form  and sending a `POST` request.
+   Admin can enter new products by specifying the name and quantity in the form  and sending a `POST` request.
 
     /products/create
    
@@ -49,7 +49,7 @@ Functionality:
    
 ## 3. Delete Products
   
-   Admin can delete products by passing the the product id and sending a `DELETE` request.
+   Admin can delete products by passing the product id and sending a `DELETE` request.
   
       /products/:id
     
@@ -61,7 +61,7 @@ Functionality:
 
 ## 4. Update Quantity of Products
 
-   Admin can update  the quantity of a product by passing the product id and the quantity by which the product may be incremented or        decremented by and sending a `post` Request.
+   Admin can update  the quantity of a product by passing the product id and the quantity by which the product may be incremented or   decremented and sending a `post` Request.
    
     /products/:id/update_quantity/?number=100
     
@@ -75,7 +75,7 @@ Functionality:
    ## Folder Structure
    
 ```
-Ecommerce-API
+E-commerce-API
     |
     |                  |--->css
     |--->assets------->|--->img
